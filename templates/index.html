@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Image Editor</title>
+</head>
+<body>
+    <canvas id="imageCanvas"></canvas> <br/>
+    <input type="file" id="imageUpload" accept="image/*"> <br/>
+
+    <input type="text" id="generatePrompt" placeholder="Enter prompt to generate image">
+    <button id="generateButton">Generate Image</button><br/>
+    
+    <input type="text" id="editPrompt" placeholder="Enter editing prompt">
+    <button id="editButton">Edit Image</button><br/>
+    <span id="loadingMessage" style="display: none;">Loading...</span>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

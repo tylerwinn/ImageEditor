@@ -1,0 +1,7 @@
+canvas {
+    border: 5px solid black;
+}
+
+body {
+    background-color: #555353; /* This is the shade of gray that chat.openai.com uses */
+}
