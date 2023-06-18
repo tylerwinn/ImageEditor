@@ -2,6 +2,8 @@
 
 This web application allows users to upload an image, draw freeform shapes to make parts of the image transparent, and either generate a new image based on a text prompt or edit the image using OpenAI's Image API.
 
+![The project in action](./images/ImageEditor.gif)
+
 ## Features
 
 - Upload an image to the canvas.
@@ -20,7 +22,7 @@ This web application allows users to upload an image, draw freeform shapes to ma
 1. Clone this repository or download it as a ZIP file.
 
    ```shell
-   git clone <repository-url>
+   git clone https://github.com/tylerwinn/ImageEditor.git
    ```
 
 2. Navigate to the project directory and create a virtual environment.
@@ -67,7 +69,7 @@ This web application allows users to upload an image, draw freeform shapes to ma
 6. Run the Flask application.
 
    ```shell
-   flask run
+   python app.py
    ```
 
 7. Open a web browser and navigate to `http://127.0.0.1:5000`.
